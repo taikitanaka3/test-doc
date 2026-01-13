@@ -21,46 +21,6 @@ theme:
 
 nav:
   - index: index.md
-  - getting-started.md
-  - preliminaries:
-      - preliminaries/rules.md
-      - preliminaries/submission.md
-      - preliminaries/check-results.md
-  - finals:
-      - finals/index.md
-  - setup:
-      - setup/requirements.md
-      - setup/workspace-setup.md
-      - setup/docker.md
-      - setup/headless-simulation.md
-      - setup/visible-simulation.md
-      - setup/build-docker.md
-      - setup/reference.md
-  - development:
-      - development/workspace-usage.md
-      - development/main-module.md
-  - specifications:
-      - specifications/interface.md
-      - specifications/hardware.md
-      - specifications/simulator.md
-  - course:
-      - course/index.md
-      - course/vehicle.md
-      - course/velocity_planning.md
-      - course/avoidance.md
-      - course/localization.md
-  - FAQ: faq.md
-  - Community: community.md
-  - ML:
-      - ai.md
-      - ml_sample/algorithms.md
-      - ml_sample/getting_started_tiny_lidar_net.md
-      - ml_sample/design.md
-      - ml_sample/getting_started_vlm_setup.md
-      - ml_sample/getting_started_vlm_run.md
-      - ml_sample/getting_started_vad_setup.md
-      - ml_sample/getting_started_vad_run.md
-      - ml_sample/faq.md
 
 extra_css:
   - stylesheets/custom.css
@@ -90,21 +50,3 @@ plugins:
           build: true
           nav_translations:
             index: 競技概要
-            preliminaries: 予選
-            finals: 決勝
-            setup: 環境構築
-            development: 開発
-            specifications: 仕様
-            course: 入門講座
-            Community: コミュニティ
-            AI: AI
-        - locale: en
-          name: English
-          build: true
-          nav_translations:
-            index: Top Page
-            preliminaries: Preliminaries
-            setup: Setup
-            development: Development
-            specifications: Specifications
-            course: Course
